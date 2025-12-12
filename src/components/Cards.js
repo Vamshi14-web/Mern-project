@@ -2,8 +2,8 @@ import React from "react";
 
 function Cards(props) {
   return (
-    <div>
-      <img src={props.link} alt="prabhas"></img>
+    <div className="cards">
+      <img className="images" src={props.link} alt="prabhas"></img>
       <h2>{props.actorName}</h2>
       <p>{props.passage}</p>
     </div>
