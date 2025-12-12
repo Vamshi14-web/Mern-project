@@ -1,24 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Signup from "./components/Signup";
 
 function App() {
   return (
     <div className="App">
-      <form>
-        <h1>Sign Up</h1>
-        <div>
-          <label>First Name</label>
-          <input></input>
-        </div>
-        <div>
-          <label>Last Name</label>
-          <input></input>
-        </div>
-        <div>
-          <label>Number</label>
-          <input></input>
-        </div>
-      </form>
+      <Signup />
     </div>
   );
 }
