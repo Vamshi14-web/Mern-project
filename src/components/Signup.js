@@ -15,7 +15,15 @@ function Signup() {
         </div>
         <div>
           <label>Email </label>
-          <input></input>
+          <input type="email"></input>
+        </div>
+        <div>
+          <label>password</label>
+          <input type="password"></input>
+        </div>
+        <div>
+          <label>confirm password</label>
+          <input type="password"></input>
         </div>
       </form>
     </div>
